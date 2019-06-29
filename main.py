@@ -5,6 +5,7 @@ import random
 conn = sqlite3.connect('shop.sqlite')
 cur = conn.cursor()
 
+# Вывод информации из базы данных в консоль:
 print("Users:")
 cur.execute('SELECT * FROM User')
 for row in cur:
