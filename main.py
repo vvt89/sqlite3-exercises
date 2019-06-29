@@ -1,6 +1,7 @@
 import sqlite3
 import random
 
+# Какой-то левый комментарий
 conn = sqlite3.connect('shop.sqlite')
 cur = conn.cursor()
 
