@@ -1,6 +1,7 @@
 import sqlite3
 import random
 
+# Подключаемся к файлу базы данных:
 conn = sqlite3.connect('shop.sqlite')
 cur = conn.cursor()
 
